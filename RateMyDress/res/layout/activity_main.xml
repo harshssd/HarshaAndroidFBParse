@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        style="@style/options_button2"
+        android:id="@+id/camera"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Capture a Picture"/>
+
+    <Button
+        style="@style/options_button2"
+        android:id="@+id/upload"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Upload a Picture" />
+
+    <Button
+        style="@style/options_button2"
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="View Notifications" />
+
+    <Button
+        style="@style/options_button2"
+        android:id="@+id/button5"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="View Activities" />
+
+    <Button
+        style="@style/options_button2"
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Manage Friend List" />
+    
+    
+    <Button
+        style="@style/options_button2"
+        android:id="@+id/profile"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="View My Profile" />
+
+    <Button
+        style="@style/options_button2"
+        android:id="@+id/logout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Logout" />
+    
+</LinearLayout>
